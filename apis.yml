@@ -1,8 +1,29 @@
 aid: singularity6
 name: Singularity6
-description: Singularity6 is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Singularity 6 is a Los Angeles-based video game development studio founded in
+  2018 by a team of experienced developers, several of them Riot Games alumni,
+  with the mission of forging alternate worlds that deepen players' lives. The
+  studio is the developer and publisher of Palia, a free-to-play community
+  simulation MMO where players build a cozy life, craft, farm, fish, and explore
+  a shared social world with friends. Palia launched into open beta on PC and
+  Nintendo Switch and has grown to millions of registered players. Singularity 6
+  was acquired by Daybreak Game Company in 2024. The company operates a consumer
+  gaming business and does not publish a public developer API program; this
+  profile documents the company's public web presence rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/singularity6/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.singularity6.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Development
+- MMO
+- Entertainment
+- Palia
 apis: []
+common:
+- type: DomainSecurity
+  url: security/singularity6-domain-security.yml
+- type: Website
+  url: https://www.singularity6.com/
+- type: About
+  url: https://www.singularity6.com/about
+- type: Blog
+  url: https://www.singularity6.com/news
+- type: Careers
+  url: https://www.singularity6.com/careers
+- type: Support
+  url: https://support.palia.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
